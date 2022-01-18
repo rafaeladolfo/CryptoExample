@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     env:
       XC_VERSION: ${{ '12.5' }}
-      XC_PROJECT: ${{ 'Gilfoyle.xcodeproj' }}
+      XC_PROJECT: ${{ 'Gilfoyle/Gilfoyle.xcodeproj' }}
       XC_SCHEME: ${{ 'Gilfoyle' }}
     steps:
     - name: Select latest Xcode
